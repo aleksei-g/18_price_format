@@ -5,7 +5,7 @@ def create_parser():
     parser = argparse.ArgumentParser(description="Скрипт выполняет "
                                                  "форматирование строки "
                                                  "цены товара.")
-    parser.add_argument('price', metavar='ТОП',
+    parser.add_argument('price', metavar='PRICE',
                         help='Форматируемая строка цены товара.')
     return parser
 
